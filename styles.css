@@ -1,0 +1,88 @@
+#title {
+  text-align: center;
+}
+
+.show{
+  display: block;
+}
+
+
+#cart-title{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#empty-cart-button{
+  display: none;
+}
+
+#total{
+  display: block;
+}
+
+p{
+  text-align: center;
+}
+/* Black and white code from https://www.w3schools.com/howto/howto_css_image_bw.asp */
+img:hover {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); 
+}
+
+button {
+  position: relative;
+  left: 40%;
+
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.font-selector {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.font-selector a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.font-selector a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .font-selector {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
